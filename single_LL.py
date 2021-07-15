@@ -116,7 +116,7 @@ class _Singly_LL:
         else:
             link = self._head 
             while link != None:
-                print(link._item, end =' ')
+                print(link._item, end = ' ') 
                 link = link._next 
             print()
 
@@ -157,7 +157,6 @@ my_list._popLast()
 my_list._printList()
 my_list._popLast()
 my_list._printList()'''
-
 
 
 
