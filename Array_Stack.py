@@ -31,7 +31,7 @@ class ArrayStack:
         else:
             return self._stack[-1]
 
-    def PrintStack(self): 
+    def PrintStack(self):       #print all element in stack
         for i in range(len(self._stack)):
             print(self._stack[i], end = ' ')
         print()
